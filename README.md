@@ -3,7 +3,7 @@
 This is a  React application built to aggregate product revenue data across multiple branches, featuring real-time filtering, sorting, and dynamic total revenue calculation.
 
 ## 🚀 Live Demo
-revenue-aggregator-seven.vercel.app
+https://revenue-aggregator-seven.vercel.app
 
 ## 🛠 Features
 - **Data Aggregation:** Efficiently merges products from various branch sources and calculates totals.
