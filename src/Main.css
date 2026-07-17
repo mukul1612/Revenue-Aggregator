@@ -1,0 +1,87 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+}
+
+.search-box {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.search-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+thead,
+tfoot {
+  flex-shrink: 0;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tbody {
+  flex: 1;
+  overflow-y: auto;
+  display: block;
+  width: 100%;
+}
+
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+tfoot tr {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
